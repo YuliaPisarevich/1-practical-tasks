@@ -1,11 +1,12 @@
 public class Test {
-    public static void main(String [] args){
-        double n = 3210;
-        boolean increase = IncreaseNumberLogic.increase(n);
-        boolean decrease = IncreaseNumberLogic.decrease(n);
+    public static void main(String[] args) {
+        int num = UserInput.nextInt();
 
-        System.out.println("Возрастающая последовательность: "+increase);
-        System.out.println("Убывающая последовательность: "+decrease);
+        boolean increase = IncreaseNumberLogic.isIncrease(num);
+        boolean decrease = IncreaseNumberLogic.isDecrease(num);
+
+        System.out.println("Последовательность цифр " + num + " является возрастающей: " + increase);
+        System.out.println("Последовательность цифр " + num + " является убывающей: " + decrease);
 
     }
 }

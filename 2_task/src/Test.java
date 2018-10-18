@@ -1,11 +1,12 @@
 public class Test {
     public static void main(String[] args) {
-        double a = 4;
-        double b = 4;
-        double c = 4;
+        double a = UserInput.inputDouble();
+        double b = UserInput.inputDouble();;
+        double c = UserInput.inputDouble();;
 
-        boolean res = CompareLogic.compareThree(a,b,c);
-        System.out.println(res);
+        boolean result = CompareLogic.compareThree(a,b,c);
+
+        System.out.println(result);
 
 
     }

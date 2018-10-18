@@ -1,12 +1,12 @@
 public class Test {
     public static void main(String [] args){
 
-        double n = 123456;
-        double arithmetic = AverageLogic.arithmeticAverage(n);
-        double geometric=AverageLogic.geometricAverage(n);
+        int num = UserInput.nextInt();
+        double arithmetic = AverageLogic.arithmeticAverage(num);
+        double geometric=AverageLogic.geometricAverage(num);
 
-        System.out.println("Среднее арифметическое  " + n + " = "+arithmetic);
-        System.out.println("Среднее геометрические числа " + n + " = "+ geometric);
+        System.out.println("Среднее арифметическое  " + num + " = "+arithmetic);
+        System.out.println("Среднее геометрические числа " + num + " = "+ geometric);
 
     }
 }

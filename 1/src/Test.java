@@ -1,6 +1,6 @@
 public class Test {
     public static void main(String[] args) {
-        double kg = 10;
+        double kg = UserInput.inputMass();
 
         double mg = WeightWorker.kgIntoMilligram(kg);
         double gram = WeightWorker.kgIntoGram(kg);

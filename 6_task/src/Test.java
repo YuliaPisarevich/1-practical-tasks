@@ -1,9 +1,9 @@
 public class Test {
     public static void main(String[] args){
-        double n = 1234567;
-        double reverse = BackwardNumberLogic.backwardNumber(n);
+        int n = UserInput.nextInt();
+        int result = BackwardNumberLogic.backwardNumber(n);
 
-        System.out.println(reverse);
+        System.out.println(result);
 
     }
 }
